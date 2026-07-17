@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Happy Birthday Meri Pyari Gudiya ❤️</title>
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<!-- Hearts -->
+<div class="hearts">
+<span>❤️</span>
+<span>💖</span>
+<span>💕</span>
+<span>💗</span>
+<span>💝</span>
+<span>❤️</span>
+</div>
+
+<!-- Balloons -->
+<div class="floating-balloons">
+<span>🎈</span>
+<span>🎈</span>
+<span>🎈</span>
+<span>🎈</span>
+<span>🎈</span>
+</div>
+
+<!-- Stars -->
+<div class="stars">
+<span>✨</span>
+<span>⭐</span>
+<span>✨</span>
+<span>⭐</span>
+<span>✨</span>
+<span>⭐</span>
+</div>
+
+<!-- Confetti -->
+<div id="confetti"></div>
+
+<div class="hero">
+
+<h1>💖 To Meri Pyari Gudiya 💖</h1>
+
+<h2>21 December 2026 🎂</h2>
+
+<h3 id="countdown"></h3>
+
+<p class="message">
+
+Meri Pyari Gudiya,
+<br><br>
+
+Happy 19th Birthday! ❤️
+<br><br>
+
+Today, you turn 19, and before anything else...
+
+<br><br>
+
+<b>Happy Birthday!</b> 🎉
+<br><br>
+
+I really wish I could have been there today and handed these gifts to you myself.
+
+<br><br>
+
+Since I couldn't, I thought I'd celebrate your birthday in my own little way.
+
+<br><br>
+
+That's why I made this little birthday corner just for you.
+
+</p>
+
+<button id="nextBtn">
+🎁 Open My Surprise
+</button>
+
+<!-- Surprise -->
+<div id="surprise" style="display:none;">
+
+<h2>🎁 Your Birthday Gifts 🎁</h2>
+
+<div class="gift-box" id="giftBox">
+🎁
+</div>
+
+<div id="giftItems" style="display:none;">
+
+<img src="images/teddy.png" alt="Teddy">
+
+<img src="images/chocolate.png" alt="Chocolate">
+
+<img src="images/cotton-candy.png" alt="Cotton Candy">
+
+<img src="images/balloons.png" alt="Balloons">
+
+<button id="continueBtn">
+Continue ❤️
+</button>
+
+</div>
+
+</div>
+<!-- Cake Section -->
+<section id="cakeSection" style="display:none;">
+
+    <h2>🎂 One Last Thing...</h2>
+
+    <p>Your birthday cake is waiting for you. ❤️</p>
+
+    <img src="images/cake.png" alt="Birthday Cake" class="cake">
+
+    <button id="lightBtn">
+        🕯️ Light the Candle
+    </button>
+
+    <div id="wishSection" style="display:none;">
+
+        <h3>✨ Close your eyes... ✨</h3>
+
+        <p>
+            Make a little birthday wish...<br><br>
+            May all your dreams come true. ❤️
+        </p>
+
+        <button id="blowBtn">
+            💨 Blow the Candle
+        </button>
+
+    </div>
+
+</section>
+
+<!-- Birthday Letter -->
+<section id="letterSection" style="display:none;">
+
+    <div class="envelope" id="envelope">
+        ✉️
+    </div>
+
+    <div class="letter" id="birthdayLetter" style="display:none;">
+
+        <h2>💌 To Meri Pyari Gudiya ❤️</h2>
+
+        <p class="letterText">
+
+            Meri Pyari Gudiya,
+            <br><br>
+
+            Happy 19th Birthday! ❤️
+            <br><br>
+
+            Today you turn 19, and the first thing I want to say is...
+
+            <br><br>
+
+            <b>Happy Birthday!</b> 🎉
+            <br><br>
+
+            I'm not there with you today, but I still wanted to be a small part of your special day.
+
+            <br><br>
+
+            So I made these little virtual gifts for you.
+
+            <br><br>
+
+            I wish I could have given you the balloons, chocolates, teddy, cotton candy, and cake with my own hands...
+
+            <br><br>
+
+            But for now, this is my way of celebrating your birthday.
+
+            <br><br>
+
+            I just hope they bring a smile to your face.
+
+            <br><br>
+
+            To the people who truly know you and understand you, you'll always be someone very special.
+
+            <br><br>
+
+            I truly wish that this new year of your life brings you lots of happiness, good health, peace, and beautiful memories.
+
+            <br><br>
+
+            I hope your dreams come true, one by one, and that you always find reasons to smile.
+
+            <br><br>
+
+            Now go and enjoy your birthday...
+
+            <br><br>
+
+            🎂 Eat lots of cake.<br>
+            📸 Click lots of pictures.<br>
+            😂 Laugh a lot.<br>
+            💖 Make today a day you'll always remember.
+
+            <br><br>
+
+            <b>Happy 19th Birthday, Meri Pyari Gudiya. ❤️</b>
+
+            <br><br>
+
+            ❤️ Tumhara Bhaiya ❤️
+
+        </p>
+
+    </div>
+
+</section>
+<!-- Final Surprise -->
+<section id="finalSection" style="display:none;">
+
+    <button id="finalGift">
+        💝 One Last Surprise
+    </button>
+
+    <div id="finalMessage" style="display:none;">
+
+        <h2>💖 One Last Thing... 💖</h2>
+
+        <p class="lastText">
+
+            No matter where life takes us,
+            <br><br>
+
+            I hope you always stay happy,
+            <br>
+            keep smiling,
+            <br>
+            and remember that you'll always have a Bhaiya who wishes the very best for you.
+            <br><br>
+
+            May this new year of your life bring you endless happiness, good health, beautiful memories, and all the success you deserve.
+            <br><br>
+
+            Thank you for taking the time to go through this little birthday surprise. Every page was made with love, care, and heartfelt wishes just for you.
+            <br><br>
+
+            <b>Happy 19th Birthday,<br>
+            Meri Pyari Gudiya. ❤️</b>
+
+            <br><br>
+
+            ❤️ — Tumhara Bhaiya ❤️
+
+        </p>
+
+    </div>
+
+</section>
+<div id="ending" style="display:none;">
+    <div class="ending-content">
+        <h1>💖 I Hope You Liked This Surprise 💖</h1>
+
+        <p>
+            Every page was made with love, care, and heartfelt wishes just for you.
+            <br><br>
+            Happy 19th Birthday, Meri Pyari Gudiya. ❤️
+        </p>
+
+        <h2>❤️ — Tumhara Bhaiya ❤️</h2>
+    </div>
+</div>
+<audio id="music" preload="auto" loop>
+    <source src="music/happybirthday.mp3" type="audio/mpeg">
+</audio>
+
+<script src="script.js"></script>
+
+</body>
+</html>
