@@ -169,15 +169,19 @@ function createConfetti() {
         }, 5000);
     }
 }
-envelope.onclick = function () {
+if (envelope && birthdayLetter) {
 
-    envelope.classList.add("open");
+    envelope.onclick = function () {
 
-    setTimeout(function () {
+        envelope.classList.add("open");
 
-        envelope.style.display = "none";
-        birthdayLetter.style.display = "block";
+        setTimeout(function () {
 
-    }, 600);
+            envelope.style.display = "none";
+            birthdayLetter.style.display = "block";
 
-};
+        }, 600);
+
+    };
+
+}
